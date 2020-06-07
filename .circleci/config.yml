@@ -58,3 +58,10 @@ jobs:
             sudo pip install --upgrade pip
             pip install --user tox
             tox -e py38
+workflows:
+  version: 2
+  test-all:
+    jobs:
+      - test_regression_model_py36
+      - test_regression_model_py37
+      - test_regression_model_py38
