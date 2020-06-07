@@ -13,7 +13,7 @@ prepare_venv: &prepare_venv
       source venv/bin/activate
       pip install --upgrade pip
 
-jobs:
+jobs: 
   test_regression_model:
     <<: *defaults
     steps:
