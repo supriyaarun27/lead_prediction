@@ -59,7 +59,7 @@ Writing the steps of data preparation, feature engineering and ModelBuilding ste
 
 We can maintain the compatability and dependency requirements of the project by using virtual environments. I have used the VENV module from Python. 
 
-I have also used [I'm an inline-style link](https://pypi.org/project/tox/) 
+I have also used [TOX](https://pypi.org/project/tox/) as a task automation tool.
 
 ### Testing Frameworks 
 
@@ -71,5 +71,5 @@ I have used Github (a distributed version control system) for hosting and collab
 
 ## CI / CD Pipeline 
 
-I have used CircleCI for automating the development process. 
+I have used [CircleCi](https://circleci.com/) for automating the development process. 
 
